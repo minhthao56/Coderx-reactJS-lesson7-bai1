@@ -1,0 +1,38 @@
+.TabMenu a {
+  color: cadetblue;
+  font-size: 19px;
+  transition: color 0.2s;
+}
+.TabMenu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  background-color: #eaeaea;
+  height: 50px;
+  border-radius: 5px;
+}
+.icon {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  border-left: solid;
+  justify-content: center;
+  align-items: center;
+  border-width: 0.8px;
+  border-color: rgba(150, 150, 150, 0.1);
+  transform: none;
+  transition: transform 0.2s, border-color 0.2s;
+}
+.icon:hover {
+  background-color: white;
+  border-top: solid;
+  border-width: 0.8px;
+  border-color: #a9e57d;
+  transform: scale(1.1);
+  border-bottom: 2px solid rgba(100, 100, 100, 0.2);
+}
+.icon:hover a {
+  color: #a9e57d;
+  transform: scale(1.1);
+}
